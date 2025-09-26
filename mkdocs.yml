@@ -1,6 +1,6 @@
-site_name: Team Onboarding
-site_description: Quickstart guides for joining the team
-site_url: https://<your-user-or-org>.github.io/<repo>
+site_name: RAS Onboarding
+site_description: Quickstart guides for joining one of our teams
+site_url: https://raideraerospacesociety25-26.github.io/ras-handbook/
 repo_url: https://github.com/<your-user-or-org>/<repo>
 
 theme:
@@ -12,6 +12,19 @@ theme:
     - content.tabs.link
     - search.suggest
     - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
 nav:
   - Home: index.md
