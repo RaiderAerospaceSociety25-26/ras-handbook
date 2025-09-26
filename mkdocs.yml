@@ -70,6 +70,9 @@ markdown_extensions:
     - pymdownx.emoji
     - pymdownx.keys
 
+extra_css:
+    - assets/css/colors.css
+
 plugins:
     - search
     - glightbox
