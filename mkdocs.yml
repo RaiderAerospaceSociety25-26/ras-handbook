@@ -62,7 +62,7 @@ markdown_extensions:
           permalink: true
     - pymdownx.blocks.caption
     - pymdonwx.tasklist:
-      custom_checkbox: true
+          custom_checkbox: true
     - pymdownx.details
     - pymdownx.superfences
     - pymdownx.tasklist
