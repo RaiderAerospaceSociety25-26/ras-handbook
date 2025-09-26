@@ -1,43 +1,48 @@
-site_name: RAS Handbook
-repo_url: https://github.com/RaiderAerospaceSociety25-26/ras-handbook
+site_name: Team Onboarding
+site_description: Quickstart guides for joining the team
+site_url: https://<your-user-or-org>.github.io/<repo>
+repo_url: https://github.com/<your-user-or-org>/<repo>
+
 theme:
   name: material
   features:
-    - navigation.tabs
     - navigation.sections
-    - navigation.tracking
+    - navigation.top
     - content.code.copy
-    - toc.follow
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Git Basics: getting-started/git.md
+      - GitHub Setup: getting-started/github.md
+      - VS Code: getting-started/vscode.md
+      - PlatformIO: getting-started/platformio.md
+  - Team Standards:
+      - Branching: standards/branching.md
+      - Commit Style: standards/commits.md
+      - Pull Requests: standards/prs.md
+      - Tooling: standards/tooling.md
+  - Checklists:
+      - New Member: checklists/new-member.md
+      - Workstation Setup: checklists/workstation-setup.md
+  - FAQ: faq.md
+
 markdown_extensions:
   - admonition
   - toc:
       permalink: true
   - pymdownx.details
-  - pymdownx.tabbed
-  - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.emoji
+
 plugins:
   - search
-  - mkdocs_pdf_export_plugin
-nav:
-  - Start: index.md
-  - Quickstart: quickstart.md
-  - Tracks:
-      - Avionics: tracks/avionics.md
-      - Groundstation: tracks/groundstation.md
-      - CAD & PCB: tracks/cad-pcb.md
-      - Ops & Docs: tracks/ops-docs.md
-  - Workflow:
-      - Git & GitHub: workflow/git-github.md
-      - Branching, PRs & CI: workflow/branching-prs-ci.md
-  - Standards:
-      - Coding Style: standards/coding-style.md
-      - Hardware Checklists: standards/hardware-checklists.md
-      - Safety: standards/safety.md
-  - Onboarding:
-      - Day 0: onboarding/day0.md
-      - Day 7: onboarding/day7.md
-      - Day 30: onboarding/day30.md
-  - Reference:
-      - Glossary: reference/glossary.md
-      - Useful Links: reference/links.md
+  - git-revision-date-localized:
+      type: timeago
+  - print-site:
+      add_to_navigation: false
+      print_page_title: "Onboarding (Printable)"
