@@ -13,7 +13,7 @@ Currently, the guides focus on the two teams using GitHub and the shared toolcha
 ### New here?
 
 1. Read the [New Member Checklist](checklists/new-member.md)
-2. Complete [GitHub Setup](getting-started/github.md)
+2. Complete [GitHub Setup](getting-started/github/account-setup.md)
 3. Install [VS Code / PlatformIO IDE](getting-started/vscode.md)
 4. Learn about [GitHub](standards/github.md)
 5. Clone the team/project repository (Avionics: `srad-flight-computer`, `tracking-groundstation`)
