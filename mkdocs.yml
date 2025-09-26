@@ -5,6 +5,8 @@ repo_url: https://github.com/<your-user-or-org>/<repo>
 
 theme:
   name: material
+  favicon: assets/favicon.ico
+  logo: assets/favicon.svg
   features:
     - navigation.sections
     - navigation.top
