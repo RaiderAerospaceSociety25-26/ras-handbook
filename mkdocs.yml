@@ -63,14 +63,6 @@ markdown_extensions:
     - pymdownx.tabbed
     - pymdownx.emoji
 
-extra:
-    social:
-        - icon: material/instagram
-          link: https://www.instagram.com/raider.aerospace/
-
-extra-css:
-    - assets/css/colors.css
-
 plugins:
     - search
     - git-revision-date-localized:
