@@ -66,5 +66,5 @@ You should see:
   git config --global user.name "Your Name"
   git config --global user.email "you@example.com"
   ```
-- Learn to navigate the [GitHub website](getting-started/github/github.md)
+- Learn to navigate the [GitHub website](github.md)
 - Follow the [Git Basics](../git.md) page for branching, commi
