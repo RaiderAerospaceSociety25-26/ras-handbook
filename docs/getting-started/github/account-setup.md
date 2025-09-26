@@ -4,7 +4,7 @@
 
 1. Go to [https://github.com/join](https://github.com/join).
 2. Sign up with your **TTU or personal email**.
-   - Use your TTU email if you want free access to the [GitHub Student Developer Pack](https://education.github.com/pack).
+    - Use your TTU email if you want free access to the [GitHub Student Developer Pack](https://education.github.com/pack).
 3. Pick a username you’re comfortable using for school + projects (e.g first-last).
 
 ---
@@ -15,8 +15,8 @@ Security is required for all RAS/SpaceRaiders repos.
 
 1. Go to **Settings → Password and authentication**.
 2. Enable **2FA** using:
-   - Authenticator app (recommended, e.g., Authy, Microsoft Authenticator), or
-   - Hardware key (YubiKey, etc.).
+    - Authenticator app (recommended, e.g., Authy, Microsoft Authenticator), or
+    - Hardware key (YubiKey, etc.).
 3. Save your recovery codes somewhere safe.
 
 ---
@@ -33,9 +33,9 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ### Add your key to GitHub
 
 1. Copy your public key:
-   ```bash
-   cat ~/.ssh/id_ed25519.pub
-   ```
+    ```bash
+    cat ~/.ssh/id_ed25519.pub
+    ```
 2. Go to **GitHub → Settings → SSH and GPG keys → New SSH key**.
 3. Give it a name → Paste the key → Save.
 
@@ -61,10 +61,10 @@ You should see:
 
 ## 6. Next Steps
 
-- Configure Git identity:
-  ```bash
-  git config --global user.name "Your Name"
-  git config --global user.email "you@example.com"
-  ```
-- Learn to navigate the [GitHub website](github.md)
-- Follow the [Git Basics](../git.md) page for branching, commi
+-   Configure Git identity:
+    ```bash
+    git config --global user.name "Your Name"
+    git config --global user.email "you@example.com"
+    ```
+-   Learn to navigate the [GitHub website](github.md)
+-   Follow the [Git Basics](../git.md) page for branching, commi

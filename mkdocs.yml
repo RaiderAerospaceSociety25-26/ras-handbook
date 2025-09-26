@@ -4,63 +4,63 @@ site_url: https://raideraerospacesociety25-26.github.io/ras-handbook/
 repo_url: https://github.com/RaiderAerospaceSociety25-26/ras-handbook
 
 theme:
-  name: material
-  favicon: assets/favicon.ico
-  logo: assets/ras-logo.svg
-  features:
-    - navigation.sections
-    - navigation.top
-    - content.code.copy
-    - content.tabs.link
-    - search.suggest
-    - search.highlight
-  palette:
-    - scheme: default
-      primary: red
-      accent: deep-orange
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: red
-      accent: deep-orange
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    name: material
+    favicon: assets/favicon.ico
+    logo: assets/ras-logo.svg
+    features:
+        - navigation.sections
+        - navigation.top
+        - content.code.copy
+        - content.tabs.link
+        - search.suggest
+        - search.highlight
+    palette:
+        - scheme: default
+          primary: red
+          accent: deep-orange
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
+        - scheme: slate
+          primary: red
+          accent: deep-orange
+          toggle:
+              icon: material/brightness-4
+              name: Switch to light mode
 
 nav:
-  - Home: index.md
-  - Getting Started:
-      - Terminal Basics: getting-started/terminal.md
-      - GitHub:
-          - Account Setup: getting-started/github/account-setup.md
-          - GitHub Website: getting-started/github/github.md
-      - Git Basics: getting-started/git.md
-      - VS Code: getting-started/vscode.md
-      - PlatformIO: getting-started/platformio.md
-  - Team Standards:
-      - Branching: standards/branching.md
-      - Commit Style: standards/commits.md
-      - Pull Requests: standards/prs.md
-      - Tooling: standards/tooling.md
-  - Checklists:
-      - New Member: checklists/new-member.md
-      - Workstation Setup: checklists/workstation-setup.md
-  - FAQ: faq.md
+    - Home: index.md
+    - Getting Started:
+          - Terminal Basics: getting-started/terminal.md
+          - GitHub:
+                - Account Setup: getting-started/github/account-setup.md
+                - GitHub Website: getting-started/github/github.md
+          - Git Basics: getting-started/git.md
+          - VS Code: getting-started/vscode.md
+          - PlatformIO: getting-started/platformio.md
+    - Team Standards:
+          - Branching: standards/branching.md
+          - Commit Style: standards/commits.md
+          - Pull Requests: standards/prs.md
+          - Tooling: standards/tooling.md
+    - Checklists:
+          - New Member: checklists/new-member.md
+          - Workstation Setup: checklists/workstation-setup.md
+    - FAQ: faq.md
 
 markdown_extensions:
-  - admonition
-  - toc:
-      permalink: true
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.emoji
+    - admonition
+    - toc:
+          permalink: true
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - pymdownx.emoji
 
 plugins:
-  - search
-  - git-revision-date-localized:
-      type: timeago
-  - print-site:
-      add_to_navigation: false
-      print_page_title: "Onboarding (Printable)"
+    - search
+    - git-revision-date-localized:
+          type: timeago
+    - print-site:
+          add_to_navigation: false
+          print_page_title: "Onboarding (Printable)"

@@ -15,9 +15,9 @@
 
 ### Install Git
 
-- macOS: `brew install git`
-- Windows: Install **Git for Windows** (includes Git Bash)
-- Linux: `sudo apt install git` (or your distro’s package manager)
+-   macOS: `brew install git`
+-   Windows: Install **Git for Windows** (includes Git Bash)
+-   Linux: `sudo apt install git` (or your distro’s package manager)
 
 ### Identify Yourself
 
@@ -99,18 +99,18 @@ gh pr create --fill                 # ready for review
 
 In the PR description:
 
-- Link the issue: **Closes #123**
-- Explain **what changed** and **how to test**
-- Add screenshots/logs/renders if applicable (firmware, dashboards, CAD/PCB)
+-   Link the issue: **Closes #123**
+-   Explain **what changed** and **how to test**
+-   Add screenshots/logs/renders if applicable (firmware, dashboards, CAD/PCB)
 
 ---
 
 ## 7) CI, Reviews, Merge
 
-- CI runs automatically (Actions). Fix failures locally, then push.
-- Address reviewer comments; push new commits.
-- When green/approved, **Squash merge** (keeps `main` tidy).
-- Branch auto-deletes on merge.
+-   CI runs automatically (Actions). Fix failures locally, then push.
+-   Address reviewer comments; push new commits.
+-   When green/approved, **Squash merge** (keeps `main` tidy).
+-   Branch auto-deletes on merge.
 
 ---
 
@@ -127,8 +127,8 @@ Start your next task from the fresh `main`.
 
 ## 9) Binary Assets (CAD/PCB/Images)
 
-- Large binaries don’t diff like code. Commit sparingly with clear messages.
-- If you must add big files regularly, talk to leads about **Git LFS** and repo policies.
+-   Large binaries don’t diff like code. Commit sparingly with clear messages.
+-   If you must add big files regularly, talk to leads about **Git LFS** and repo policies.
 
 ---
 
@@ -155,13 +155,13 @@ git merge --abort                  # back out of a merge
 
 1. Run rebase/merge and see conflicts.
 2. Open the files; search for conflict markers:
-   ```
-   <<<<<<< HEAD
-   your version
-   =======
-   incoming version
-   >>>>>>> origin/main
-   ```
+    ```
+    <<<<<<< HEAD
+    your version
+    =======
+    incoming version
+    >>>>>>> origin/main
+    ```
 3. Edit to the correct final version; save.
 4. `git add <fixed-files>`
 5. `git rebase --continue` (or `git commit` if you were merging)
@@ -198,5 +198,5 @@ A: Ensure tool versions match; run format/lint hooks; check Actions logs in the 
 
 ## Next Steps
 
-- If you haven’t already, read the **Contributing Guide** (bigger-picture process).
-- Then pick an issue, branch, and make your first PR 🚀
+-   If you haven’t already, read the **Contributing Guide** (bigger-picture process).
+-   Then pick an issue, branch, and make your first PR 🚀

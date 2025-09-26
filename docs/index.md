@@ -3,8 +3,8 @@
 This site is for new and returning members of **Raider Aerospace Society (RAS) → SpaceRaiders Division**.  
 Currently, the guides focus on the two teams using GitHub and the shared toolchain:
 
-- **SR-Avionics**
-- **SR-Airbrakes**
+-   **SR-Avionics**
+-   **SR-Airbrakes**
 
 ---
 
@@ -21,8 +21,8 @@ Currently, the guides focus on the two teams using GitHub and the shared toolcha
 
 ### Returning?
 
-- Review [Branching Model](standards/branching.md)
-- See [FAQ](faq.md) for common issues
+-   Review [Branching Model](standards/branching.md)
+-   See [FAQ](faq.md) for common issues
 
 ---
 
@@ -30,18 +30,18 @@ Currently, the guides focus on the two teams using GitHub and the shared toolcha
 
 ### SR-Avionics
 
-- SRAD Flight Computer: **[Repository](https://github.com/RaiderAerospaceSociety25-26/srad-flight-computer)** and **[Project](https://github.com/orgs/RaiderAerospaceSociety25-26/projects/3)**
-  - Technologies: ESP32/STM32, PlatformIO, FreeRTOS, custom PCBs
-  - Responsibilities: Flight computer, recovery integration, and airbrakes control
-- Tracking Groundstation: **[Repository](https://github.com/RaiderAerospaceSociety25-26/tracking-groundstation)** and **[Project](https://github.com/orgs/RaiderAerospaceSociety25-26/projects/4)**
-  - Technologies: Raspberry Pi, Python (PyQT/PySide6),
-  - Responsibilities: In-Flight module, Ground module, Live Telemetry, and Video
+-   SRAD Flight Computer: **[Repository](https://github.com/RaiderAerospaceSociety25-26/srad-flight-computer)** and **[Project](https://github.com/orgs/RaiderAerospaceSociety25-26/projects/3)**
+    -   Technologies: ESP32/STM32, PlatformIO, FreeRTOS, custom PCBs
+    -   Responsibilities: Flight computer, recovery integration, and airbrakes control
+-   Tracking Groundstation: **[Repository](https://github.com/RaiderAerospaceSociety25-26/tracking-groundstation)** and **[Project](https://github.com/orgs/RaiderAerospaceSociety25-26/projects/4)**
+    -   Technologies: Raspberry Pi, Python (PyQT/PySide6),
+    -   Responsibilities: In-Flight module, Ground module, Live Telemetry, and Video
 
 ### SR-Airbrakes
 
-- Project: `<link-to-airbrakes-project-repo>`
-  - Technologies:
-  - Responsibilities:
+-   Project: `<link-to-airbrakes-project-repo>`
+    -   Technologies:
+    -   Responsibilities:
 
 ---
 
