@@ -68,8 +68,8 @@ plugins:
     - git-revision-date-localized:
           type: timeago
     - git-committers:
-      repository: RaiderAerospaceSociety25-26/ras-handbook
-      branch: main
+          repository: RaiderAerospaceSociety25-26/ras-handbook
+          branch: main
     - print-site:
           add_to_navigation: false
           print_page_title: "Onboarding (Printable)"
