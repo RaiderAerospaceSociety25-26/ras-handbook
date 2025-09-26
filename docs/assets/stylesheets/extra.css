@@ -1,37 +1,90 @@
-/* Light */
+/* ========== Light (default) ========== */
 [data-md-color-scheme="default"] {
-    /* Texas Tech red */
-    --md-primary-fg-color: #121212;
-    --md-primary-fg-color--light: #e64545; /* brighter hover/active */
-    --md-primary-fg-color--dark: #990000; /* header/footer contrast */
+    /* Brand + neutrals */
+    --ras-red: #cc0000;
+    --ras-surface: #ebebeb; /* Anti-Flash White */
+    --ras-text: #1a1a1a; /* comfy body text */
+    --ras-neutral-500: #6e6e73; /* mid neutral for borders/secondary text */
 
-    /* Accent: subtle neutral gray */
-    --md-accent-fg-color: #cc0000;
-    --md-accent-fg-color--transparent: rgba(74, 74, 74, 0.12);
+    /* Primary (header/sidebar) – use a dark neutral so red "pops" as accent */
+    --md-primary-fg-color: #1c1c21;
+    --md-primary-fg-color--light: #26262c;
+    --md-primary-fg-color--dark: #131316;
 
-    /* Backgrounds & text */
-    --md-default-bg-color: #ffffff;
-    --md-code-bg-color: #f7f7f7;
-    --md-footer-bg-color: #f0f0f0;
-    --md-typeset-color: #1a1a1a; /* readable text */
+    /* Accent (links, selected states) */
+    --md-accent-fg-color: var(--ras-red);
+    --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.12);
+
+    /* Page + text */
+    --md-default-bg-color: var(--ras-surface);
+    --md-typeset-color: var(--ras-text);
+
+    /* Links (make explicit so they're always distinct) */
+    --md-typeset-a-color: var(--md-accent-fg-color);
+
+    /* Code blocks */
+    --md-code-fg-color: #222; /* readable on light */
+    --md-code-bg-color: #f2f2f2; /* close to page but distinct */
+
+    /* Footer */
+    --md-footer-bg-color: #1c1c21;
+    --md-footer-fg-color: #bdbdbd;
+    --md-footer-fg-color--light: #ffffff;
+
+    /* Optional: subtle borders (tables, cards) */
+    --md-typeset-table-color: rgba(0, 0, 0, 0.12);
 }
 
-/* Dark */
+/* Accessible link affordance on hover/focus */
+[data-md-color-scheme="default"] .md-typeset a:is(:hover, :focus) {
+    text-decoration: underline;
+}
+
+/* ========== Dark (slate) ========== */
 [data-md-color-scheme="slate"] {
-    /* Keep TTU red but slightly brightened for dark backgrounds */
-    --md-primary-fg-color: #cc0000;
-    --md-primary-fg-color--light: #ff3333;
-    --md-primary-fg-color--dark: #990000;
+    --ras-red: #cc0000;
+    --ras-surface: #1c1c21; /* Raisin Black */
+    --ras-text: #e8e8e8;
+    --ras-neutral-500: #9aa0a6; /* slightly cool neutral for dark mode */
 
-    /* Accent: lighter neutral for contrast */
-    --md-accent-fg-color: #bbbbbb;
-    --md-accent-fg-color--transparent: rgba(187, 187, 187, 0.16);
+    /* Primary (header/sidebar) – let brand red lead in dark */
+    --md-primary-fg-color: var(--ras-red);
+    --md-primary-fg-color--light: #e00000;
+    --md-primary-fg-color--dark: #a40000;
 
-    /* Dark surfaces */
-    --md-default-bg-color: #1e2129;
-    --md-code-bg-color: #1e1e1e;
-    --md-footer-bg-color: #181818;
-    --md-typeset-color: #e6e6e6; /* light text */
+    /* Accent (links) */
+    --md-accent-fg-color: var(--ras-red);
+    --md-accent-fg-color--transparent: rgba(204, 0, 0, 0.16);
+
+    /* Page + text */
+    --md-default-bg-color: var(--ras-surface);
+    --md-typeset-color: var(--ras-text);
+
+    /* Links */
+    --md-typeset-a-color: #ff4d4d;
+
+    /* Code blocks */
+    --md-code-fg-color: #d9d9d9;
+    --md-code-bg-color: #24262c;
+
+    /* Footer */
+    --md-footer-bg-color: #131316;
+    --md-footer-fg-color: #bdbdbd;
+    --md-footer-fg-color--light: #ffffff;
+
+    /* Optional: subtle borders */
+    --md-typeset-table-color: rgba(255, 255, 255, 0.14);
+}
+
+/* Dark-mode link affordance */
+[data-md-color-scheme="slate"] .md-typeset a:is(:hover, :focus) {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+/* Optional: keep hovered links obviously interactive across schemes */
+.md-typeset a:hover {
+    text-decoration: underline;
 }
 
 [data-md-color-scheme="slate"] .md-logo img {
