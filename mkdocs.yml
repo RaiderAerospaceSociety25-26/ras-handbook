@@ -6,7 +6,7 @@ repo_url: https://github.com/<your-user-or-org>/<repo>
 theme:
   name: material
   favicon: assets/favicon.ico
-  logo: assets/favicon.svg
+  logo: assets/ras-logo.svg
   features:
     - navigation.sections
     - navigation.top
@@ -16,14 +16,14 @@ theme:
     - search.highlight
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: red
+      accent: deep-orange
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: red
+      accent: deep-orange
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
