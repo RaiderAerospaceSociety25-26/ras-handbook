@@ -1,8 +1,18 @@
-# Welcome 👋
+# Welcome new RAS members
 
-This site gets you from zero → productive contributor.
+## What is this thing?
 
-=== "New here?" 1. Read the [New Member Checklist](checklists/new-member.md) 2. Complete [GitHub Setup](getting-started/github.md) 3. Do the [Workstation Setup](checklists/workstation-setup.md) 4. Make your first PR following our [Commit Style](standards/commits.md) and [PR guide](standards/prs.md)
+This site is meant to get new members from zero to fully setup with the required tools.
 
-=== "Returning?"
-See [Team Standards](standards/branching.md) and [Tooling](standards/tooling.md).
+---
+
+## Which team are you looking for?
+
+### [SR Avionics](sr-avionics/new-member.md) | [SR Airbrakes]()
+
+---
+
+| Lead          | Team         | Contact:             |
+| :------------ | :----------- | :------------------- |
+| Logan Rohlfs  | SR-Avionics  | logan.rohlfs@ttu.edu |
+| Derek Sumstad | SR-Airbrakes | dsumstad@ttu.edu     |
