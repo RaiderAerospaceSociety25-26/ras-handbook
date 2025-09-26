@@ -73,7 +73,6 @@ extra-css:
 
 plugins:
     - search
-    - optimize
     - git-revision-date-localized:
           type: timeago
     - git-committers:
