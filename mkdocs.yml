@@ -68,6 +68,9 @@ extra:
         - icon: material/instagram
           link: https://www.instagram.com/raider.aerospace/
 
+extra-css:
+    - assets/css/colors.css
+
 plugins:
     - search
     - optimize
