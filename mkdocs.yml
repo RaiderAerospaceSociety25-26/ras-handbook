@@ -32,6 +32,7 @@ nav:
       - Terminal Basics: getting-started/terminal.md
       - GitHub:
           - Account Setup: getting-started/github/account-setup.md
+          - GitHub Website: getting-started/github/github.md
       - Git Basics: getting-started/git.md
       - VS Code: getting-started/vscode.md
       - PlatformIO: getting-started/platformio.md
