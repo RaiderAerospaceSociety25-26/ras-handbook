@@ -8,6 +8,7 @@
 - Auto‑format + lint before code ever hits a PR
 - Editor settings that match CI
 - Clear minimum versions and where to get them
+- Define commands/setups for needed tools
 
 ---
 
