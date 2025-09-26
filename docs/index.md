@@ -45,7 +45,7 @@ Currently, the guides focus on the two teams using GitHub and the shared toolcha
 
 ---
 
-| Lead          | Team         | Contact:                                     |
-| :------------ | :----------- | :------------------------------------------- |
-| Logan Rohlfs  | SR-Avionics  | [logan.rohlfs@ttu.edu](logan.rohlfs@ttu.edu) |
-| Derek Sumstad | SR-Airbrakes | [dsumstad@ttu.edu](dsumstad@ttu.edu)         |
+| Lead          | Team         | Contact:                                            |
+| :------------ | :----------- | :-------------------------------------------------- |
+| Logan Rohlfs  | SR-Avionics  | [logan.rohlfs@ttu.edu](mailto:logan.rohlfs@ttu.edu) |
+| Derek Sumstad | SR-Airbrakes | [dsumstad@ttu.edu](mailto:dsumstad@ttu.edu)         |
