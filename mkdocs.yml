@@ -29,8 +29,10 @@ theme:
 nav:
   - Home: index.md
   - Getting Started:
+      - Terminal Basics: getting-started/terminal.md
+      - GitHub:
+          - Account Setup: getting-started/github/account-setup.md
       - Git Basics: getting-started/git.md
-      - GitHub Setup: getting-started/github.md
       - VS Code: getting-started/vscode.md
       - PlatformIO: getting-started/platformio.md
   - Team Standards:

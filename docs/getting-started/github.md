@@ -12,3 +12,7 @@
 3. Join the org/team and accept repo invites.
 4. Install **GitHub Desktop** or use CLI only.
 5. Turn on **code owners / required reviews** in repos (maintainers only).
+
+---
+
+## Click here to skip to the setup
