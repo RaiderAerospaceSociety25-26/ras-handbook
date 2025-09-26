@@ -1,7 +1,7 @@
-site_name: RAS Onboarding
+site_name: Raider Aerospace Society Onboarding
 site_description: Quickstart guides for joining one of our teams
 site_url: https://raideraerospacesociety25-26.github.io/ras-handbook/
-repo_url: https://github.com/<your-user-or-org>/<repo>
+repo_url: https://github.com/RaiderAerospaceSociety25-26/ras-handbook
 
 theme:
   name: material
