@@ -1,0 +1,43 @@
+site_name: RAS Handbook
+repo_url: https://github.com/RaiderAerospaceSociety25-26/ras-handbook
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.tracking
+    - content.code.copy
+    - toc.follow
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tabbed
+  - pymdownx.snippets
+  - pymdownx.superfences
+plugins:
+  - search
+  - mkdocs_pdf_export_plugin
+nav:
+  - Start: index.md
+  - Quickstart: quickstart.md
+  - Tracks:
+      - Avionics: tracks/avionics.md
+      - Groundstation: tracks/groundstation.md
+      - CAD & PCB: tracks/cad-pcb.md
+      - Ops & Docs: tracks/ops-docs.md
+  - Workflow:
+      - Git & GitHub: workflow/git-github.md
+      - Branching, PRs & CI: workflow/branching-prs-ci.md
+  - Standards:
+      - Coding Style: standards/coding-style.md
+      - Hardware Checklists: standards/hardware-checklists.md
+      - Safety: standards/safety.md
+  - Onboarding:
+      - Day 0: onboarding/day0.md
+      - Day 7: onboarding/day7.md
+      - Day 30: onboarding/day30.md
+  - Reference:
+      - Glossary: reference/glossary.md
+      - Useful Links: reference/links.md
