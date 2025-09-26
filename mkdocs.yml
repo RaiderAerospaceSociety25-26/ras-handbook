@@ -68,7 +68,7 @@ plugins:
     - git-revision-date-localized:
           type: timeago
     - git-committers:
-      repository: raideraerospacesociety25-26/ras-handbook
+      repository: RaiderAerospaceSociety25-26/ras-handbook
       branch: main
     - print-site:
           add_to_navigation: false
