@@ -65,8 +65,6 @@ markdown_extensions:
 
 plugins:
     - search
-    - git-revision-date-localized:
-          type: timeago
     - git-committers:
           repository: RaiderAerospaceSociety25-26/ras-handbook
           branch: main
