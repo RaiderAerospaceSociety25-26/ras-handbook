@@ -2,18 +2,24 @@ site_name: Raider Aerospace Society Onboarding
 site_description: Quickstart guides for joining one of our teams
 site_url: https://raideraerospacesociety25-26.github.io/ras-handbook/
 repo_url: https://github.com/RaiderAerospaceSociety25-26/ras-handbook
+repo_name: ras25-26/ras-handbook
 
 theme:
     name: material
     favicon: assets/favicon.ico
+    icon:
+        repo: fontawesome/brands/github
     logo: assets/ras-logo.svg
     features:
         - navigation.sections
         - navigation.top
+        - navigation.footer
         - content.code.copy
         - content.tabs.link
         - search.suggest
         - search.highlight
+        - header.autohide
+        - announce.dismiss
     palette:
         - scheme: default
           primary: red
@@ -25,7 +31,7 @@ theme:
           primary: red
           accent: deep-orange
           toggle:
-              icon: material/brightness-4
+              icon: material/brightness-2
               name: Switch to light mode
 
 nav:
@@ -57,10 +63,19 @@ markdown_extensions:
     - pymdownx.tabbed
     - pymdownx.emoji
 
+extra:
+    social:
+        - icon: material/instagram
+          link: https://www.instagram.com/raider.aerospace/
+
 plugins:
     - search
+    - optimize
     - git-revision-date-localized:
           type: timeago
+    - git-committers:
+      repository: raideraerospacesociety25-26/ras-handbook
+      branch: main
     - print-site:
           add_to_navigation: false
           print_page_title: "Onboarding (Printable)"
