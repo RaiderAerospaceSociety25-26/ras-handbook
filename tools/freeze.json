@@ -1,0 +1,43 @@
+{
+    "defaults": {
+        "freeze_base": "freeze --window --border.radius 5 --shadow.blur 5 --margin 10"
+    },
+    "tasks": [
+        {
+            "cmd": "pwd",
+            "out": "docs/assets/images/command-outputs/pwd.png"
+        },
+        {
+            "cmd": "ls",
+            "out": "docs/assets/images/command-outputs/ls.png"
+        },
+        {
+            "cmd": "bash -c 'pwd && echo \"> cd docs\" && cd docs && pwd'",
+            "out": "docs/assets/images/command-outputs/cd-into.png"
+        },
+        {
+            "cmd": "bash -c 'cd docs && pwd && echo \"> cd ../\" && cd .. && pwd'",
+            "out": "docs/assets/images/command-outputs/cd-out.png"
+        },
+        {
+            "cmd": "bash -c 'rm -rf example-directory && ls && echo \"> mkdir example-directory\" && mkdir example-directory && ls'",
+            "out": "docs/assets/images/command-outputs/mkdir.png"
+        },
+        {
+            "cmd": "bash -c 'ls && echo \"> rm file.txt\" && rm -f file.txt || true && ls'",
+            "out": "docs/assets/images/command-outputs/rm-file.png"
+        },
+        {
+            "cmd": "bash -c 'ls && echo \"> rm -rf example-directory\" && rm -rf example-directory && ls'",
+            "out": "docs/assets/images/command-outputs/rm-folder.png"
+        },
+        {
+            "cmd": "bash -c 'ls && echo \"> touch example.md\" && touch example.md && ls'",
+            "out": "docs/assets/images/command-outputs/make-file.png"
+        },
+        {
+            "cmd": "bash -c 'ls && echo \"> code example.md\" && echo \"(file opens in VS Code window)\"'",
+            "out": "docs/assets/images/command-outputs/open-file.png"
+        }
+    ]
+}

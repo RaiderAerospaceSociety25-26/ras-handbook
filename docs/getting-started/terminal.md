@@ -14,41 +14,87 @@ _(Tip: On Windows, we recommend the Windows Terminal app for a better experience
 Think of the terminal as a file explorer without the mouse.
 
 -   **Where am I?**
+
     ```bash
     pwd      # print working directory
     ```
+
+    ![Terminal Output](../assets/images/command-outputs/pwd.png){ style="float: center; max-height:6em; width:auto;" }
+
 -   **List files/folders**
+
     ```bash
     ls       # macOS/Linux/Sometimes Windows
     dir      # Windows
     ```
+
+    ![Terminal Output](../assets/images/command-outputs/ls.png){ style="float: center; max-height:6em; width:auto;" }
+
 -   **Move into a folder**
+
     ```bash
-    cd Documents
+    pwd     # Output present working directory
+    cd docs # Change working directory
+    pwd     # Output present working directory
     ```
+
+    ![Terminal Output](../assets/images/command-outputs/cd-into.png){ style="float: center; max-height:8em; width:auto;" }
+
 -   **Go up/back one folder**
+
     ```bash
     cd ..
     ```
 
+    ![Terminal Output](../assets/images/command-outputs/cd-out.png){ style="float: center; max-height:8em; width:auto;" }
+
 ---
 
-## Creating & Managing Folders
+## Creating/Deleting/Modifying Files
+
+-   **Make a new file**
+
+    ```bash
+    touch example.md   # macOS/Linux
+    type nul > example.md  # Windows (cmd)
+    New-Item example.md    # Windows (PowerShell)
+    ```
+
+    ![Terminal Output](../assets/images/command-outputs/make-file.png){ style="float: center; max-height:6em; width:auto;" }
+
+-   **Open a file in VS Code**
+
+    ```bash
+    code example.md
+    ```
+
+    ![Terminal Output](../assets/images/command-outputs/open-file.png){ style="float: center; max-height:6em; width:auto;" }
 
 -   **Make a new folder**
+
     ```bash
     mkdir projects
     ```
+
+    ![Terminal Output](../assets/images/command-outputs/mkdir.png){ style="float: center; max-height:8em; width:auto;" }
+
 -   **Delete a file**
+
     ```bash
     rm file.txt      # macOS/Linux/Sometimes Windows
     del file.txt     # Windows
     ```
+
+    ![Terminal Output](../assets/images/command-outputs/rm-file.png){ style="float: center; max-height:8em; width:auto;" }
+
 -   **Delete a folder**
+
     ```bash
     rm -rf folder/   # macOS/Linux
     rmdir /S folder  # Windows
     ```
+
+    ![Terminal Output](../assets/images/command-outputs/rm-folder.png){ style="float: center; max-height:8em; width:auto;" }
 
 ---
 

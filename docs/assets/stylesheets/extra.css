@@ -1,0 +1,44 @@
+/* Light */
+[data-md-color-scheme="default"] {
+    /* Texas Tech red */
+    --md-primary-fg-color: #121212;
+    --md-primary-fg-color--light: #e64545; /* brighter hover/active */
+    --md-primary-fg-color--dark: #990000; /* header/footer contrast */
+
+    /* Accent: subtle neutral gray */
+    --md-accent-fg-color: #cc0000;
+    --md-accent-fg-color--transparent: rgba(74, 74, 74, 0.12);
+
+    /* Backgrounds & text */
+    --md-default-bg-color: #ffffff;
+    --md-code-bg-color: #f7f7f7;
+    --md-footer-bg-color: #f0f0f0;
+    --md-typeset-color: #1a1a1a; /* readable text */
+}
+
+/* Dark */
+[data-md-color-scheme="slate"] {
+    /* Keep TTU red but slightly brightened for dark backgrounds */
+    --md-primary-fg-color: #cc0000;
+    --md-primary-fg-color--light: #ff3333;
+    --md-primary-fg-color--dark: #990000;
+
+    /* Accent: lighter neutral for contrast */
+    --md-accent-fg-color: #bbbbbb;
+    --md-accent-fg-color--transparent: rgba(187, 187, 187, 0.16);
+
+    /* Dark surfaces */
+    --md-default-bg-color: #1e2129;
+    --md-code-bg-color: #1e1e1e;
+    --md-footer-bg-color: #181818;
+    --md-typeset-color: #e6e6e6; /* light text */
+}
+
+[data-md-color-scheme="slate"] .md-logo img {
+    content: url("../../assets/ras-logo-dark.svg");
+}
+
+/* Apply drop shadow to the header logo */
+.md-logo img {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}

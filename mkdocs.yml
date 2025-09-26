@@ -9,7 +9,7 @@ theme:
     favicon: assets/favicon.ico
     icon:
         repo: fontawesome/brands/github
-    logo: assets/ras-logo.svg
+    logo: assets/ras-logo-light.svg
     features:
         - navigation.sections
         - navigation.top
@@ -22,14 +22,14 @@ theme:
         - announce.dismiss
     palette:
         - scheme: default
-          primary: red
-          accent: deep-orange
+          primary: custom
+          accent: custom
           toggle:
               icon: material/brightness-7
               name: Switch to dark mode
         - scheme: slate
-          primary: red
-          accent: deep-orange
+          primary: custom
+          accent: custom
           toggle:
               icon: material/brightness-2
               name: Switch to light mode
@@ -71,15 +71,11 @@ markdown_extensions:
     - pymdownx.keys
 
 extra_css:
-    - assets/css/colors.css
+    - assets/stylesheets/extra.css
 
 plugins:
     - search
     - glightbox
-    - git-committers:
-          repository: RaiderAerospaceSociety25-26/ras-handbook
-          branch: main
-          token: !ENV [GITHUB_TOKEN]
     - print-site:
           add_to_navigation: false
           print_page_title: "Onboarding (Printable)"
