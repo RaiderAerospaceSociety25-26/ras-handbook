@@ -56,15 +56,23 @@ nav:
 
 markdown_extensions:
     - admonition
+    - attr_list
+    - md_in_html
     - toc:
           permalink: true
+    - pymdownx.blocks.caption
+    - pymdonwx.tasklist:
+      custom_checkbox: true
     - pymdownx.details
     - pymdownx.superfences
+    - pymdownx.tasklist
     - pymdownx.tabbed
     - pymdownx.emoji
+    - pymdownx.keys
 
 plugins:
     - search
+    - glightbox
     - git-committers:
           repository: RaiderAerospaceSociety25-26/ras-handbook
           branch: main
