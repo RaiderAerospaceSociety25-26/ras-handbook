@@ -43,6 +43,7 @@ nav:
                 - GitHub Website: getting-started/github/github.md
           - Git Basics: getting-started/git.md
           - VS Code: getting-started/vscode.md
+          - Markdown: getting-started/markdown.md
           - PlatformIO: getting-started/platformio.md
     - Team Standards:
           - Branching: standards/branching.md

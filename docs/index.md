@@ -17,7 +17,8 @@ Currently, the guides focus on the two teams using GitHub and the shared toolcha
 3. Learn about [Git](getting-started/git.md)
 4. Install [VS Code / PlatformIO IDE](getting-started/vscode.md)
 5. Clone the team/project repository (Avionics: `srad-flight-computer`, `tracking-groundstation`)
-6. Make your first PR following out [Commit Style](standards/commits.md) and [PR Guide](standards/prs.md)
+6. Learn how to use [Markdown](getting-started/markdown.md)
+7. Make your first PR following out [Commit Style](standards/commits.md) and [PR Guide](standards/prs.md)
 
 ### Returning?
 
